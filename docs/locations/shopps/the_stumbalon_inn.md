@@ -1,4 +1,10 @@
-# Stumbalon Inn
+---
+title: The Stumbalon Inn
+---
+
+<span style="font-size:smaller;">
+  [Haven]({{ site.base-url }}/) -> [Locations](../index) -> Shopps
+</span>
 
 A comforting glow emanates from the several windows lining the first floor of the building as you approach.  As you get closer, you hear a gorgeous, silky voice gliding out into the streets like smoke from a pipe, swirling and ethereal.  Finally, the smells of fresh baked bread, seasoned meats, and savoury stews reach your nose.  Above you, an illuminated, wooden sign modestly declares this building to be "The Stumbalon Inn."  Weary traveller, search no further, your place of respite is found.
 
@@ -15,3 +21,11 @@ Halflings and proprietors of the Stumbalon Inn.  Finnan runs the restaurant and 
 ### Muse Ronwe
 
 Tiefling bard, College of Eloquence.  Muse is the "bard-in-residence" and featured performer at the Stumbalon Inn.  A strikingly beautiful woman, in Faerun she had attracted the patronage of a minor noble of Silverymoon and was trained at the prestigious College of Fochlucan.  Much to the dismay of her patron and those she entertained, she was pulled to Haven at the height of her most inspiring performance.  While she blames her infernal heritage for this planar mishap, Muse is making the best of it in Haven.  With her skill and exotic beauty giving her the choice of any venue, she aligned herself with the Stumbalon Inn due to her preference of singing to sober crowds that can truly appreciate her talents.  When Muse isn't performing at the Inn, she might be serving as the MC for other performers or for the occasional open stage night for locals to show off their performing talents.  Muse does perform elsewhere in Haven on occasion and, like the proprietors of the Inn, knows much of the behind the scenes machinations across the city.  She is also not above accompanying adventurers on their campaigns if her skills can be of use.
+
+<!--
+* site.url = {{ site.url }}
+* page.url = {{ page.url }}
+* page.dir = {{ page.dir }}
+* page.path = {{ page.path }}
+* page.name = {{ page.name }}
+-->
