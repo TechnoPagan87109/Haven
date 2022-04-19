@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<head>
+  <title>Haven: {{ page.title }}</title>
+  <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+
+  <meta itemprop="name" content="Worlds of Pphost/Haven/{{ page.title }}" />
+  <meta itemprop="description" content="Worlds of Pphost is a D&amp;D 5e play-by-post campaign setting hosted on D&amp;D Beyond." />
+  <meta itemprop="image" content="https://dnd.wizards.com/sites/all/themes/dx/img/interface/page-end.png" />
+
+  <link rel="icon" href="https://dnd.wizards.com/sites/all/themes/dx/icons/favicon_.ico" type="image/x-icon" />
+
+  <!--[if IE]>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <![endif]-->
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Overlock&family=Pirata+One&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="{{ site.base-url }}/css/pphost.css" />
+
+</head>
+<body>
+
+<div class="container">
+  <header role="banner">
+    <table style="width:100%;"><tr>
+      <td style="background-color:red;">
+        <img src="https://dnd.wizards.com/sites/all/themes/dx/img/interface/page-end.png" alt="D&amp;D logo" style="float:left;height:88px;padding:4px 12px;"/>
+        <h1>The Worlds of Pphost</h1>
+        <h3>Haven Lore</h3></td>
+      <td style="background-color:white; text-align:right;"><h3 style="margin-top:3px;">Information</h3><nav><p>
+        <a href="https://www.dndbeyond.com/forums/d-d-beyond-general/play-by-post/109470-the-worlds-of-pphost" target="_blank">The Worlds of Pphost</a><br />
+        Haven <a href="https://www.dndbeyond.com/forums/d-d-beyond-general/play-by-post/110004-worlds-of-pphost-haven" target="_blank">Lore</a> &amp;
+          <a href="https://www.dndbeyond.com/forums/d-d-beyond-general/play-by-post/116929-worlds-of-pphost-haven-between-adventures" target="_blank">Role-Play</a><br />
+        <a href="https://www.dndbeyond.com/forums/d-d-beyond-general/play-by-post/109470-the-worlds-of-pphost?comment=4" target="_blank">Character Profile Guidelines</a><br />
+        <a href="https://www.dndbeyond.com/forums/d-d-beyond-general/play-by-post/109470-the-worlds-of-pphost?comment=6" target="_blank">DM Profile Guidelines</a>
+        <!--br />&nbsp;<br /-->
+      </p></nav></td>
+    </tr></table>
+  </header>
+
+  <section id="main">
+    <h1>{{ page.title }}</h1>
+
+    {{ content }}
+
+  </section>
+</div>
+
+</body>
+</html>

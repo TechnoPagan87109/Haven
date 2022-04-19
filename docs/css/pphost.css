@@ -1,0 +1,109 @@
+/* Explicitly note HTML5 semantic elements as block */
+article, aside, footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+  
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0px;
+  width: 960px;
+}
+
+#main {
+  border: white 1px solid;
+  padding: 8px;
+}
+
+body {
+  background-color: rgb(20, 20, 20);
+  color: white;
+  font-family: Overlock, Verdana, Arial, Helvetica, sans-serif;
+  font-size: 14pt;
+  margin: 0px;
+  padding: 0px;
+}
+
+nav {
+  background-color: rgb(20, 20, 20);
+  border: 1px white solid;
+  font-size: 11pt;
+  padding-left: 2px;
+  padding-right: 10px;
+}
+
+h1 {
+  color: white;
+  font-family: 'Pirata One', cursive;
+  font-size: 40pt;
+  font-weight: bold;
+  margin-bottom: 1px;
+  margin-top: 1px;
+  padding: 1px;
+  /*text-transform: capitalize;*/
+}
+
+h2 {
+  color: red;
+  font-family: 'Pirata One', cursive;
+  font-size: 24pt;
+  font-weight: bold;
+  margin-bottom: 1px;
+}
+
+h3 {
+  background-color: white;
+  color: red;
+  font-family: 'Pirata One', cursive;
+  font-size: 16pt;
+  font-weight: bold;
+  margin: 2px;
+  padding: 6px;
+}
+
+h4 {
+  color: red;
+  font-family: 'Pirata One', cursive;
+  font-size: 12pt;
+  font-weight: bold;
+  margin-bottom: 3px;
+  margin-top: 3px;
+}
+
+table { border-collapse: collapse; }
+th {
+  padding-right: 12px;
+  text-align: right;
+}
+td {
+  font-size: 10pt;
+  padding-right: 24px;
+}
+
+ol, ul { padding-left: 24px; }
+ol li { margin-bottom: 8px; }
+ul li { list-style: disc outside none; }
+
+a:link { color: red; }
+a:visited { color: red; }
+a:active { color: yellow; }
+a:hover { color: yellow; }
+
+abbr { cursor: help; }
+
+img { border-width: 0px; }
+
+/* CSS3 Media Queries for small devices */
+@media all and (max-width : 870px) {
+  .container { width: 720px; }
+
+  body { font-size: 9pt; }
+  h1 { font-size: 12pt; }
+  h2 { font-size: 10pt; }
+  h3 { font-size: 9pt; }
+  td { font-size: 9pt; }
+}
+
+header td {
+  padding-right: 0px;
+}
