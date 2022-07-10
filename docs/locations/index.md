@@ -6,6 +6,12 @@ title: Locations
   [Haven]({{ site.base-url }}/) -> Locations
 </span>
 
+## The Scholars
+
+* The Copper Dragon Tavern
+* [Cassandra's Magic](scholars/cassandras_magic)
+* Drusilla's Forest
+
 ## The Shopps
 
 * [The Arcade](shopps/the_arcade)
